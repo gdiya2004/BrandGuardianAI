@@ -25,10 +25,9 @@ It ingests a YouTube video, extracts textual signals via Azure Video Indexer, re
 
   * CLI + FastAPI API
 
----
-## **⚙️ Architecture Diagram**
-![Architecture Diagram](<img width="1301" height="878" alt="image" src="https://github.com/user-attachments/assets/bf2255f4-5b62-4e17-b516-f0767ddcbf21" />
-)
+## ⚙️ Architecture Diagram
+
+<img width="1301" height="878" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/bf2255f4-5b62-4e17-b516-f0767ddcbf21" />
 
 ---
 
