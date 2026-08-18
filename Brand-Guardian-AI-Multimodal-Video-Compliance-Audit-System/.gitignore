@@ -1,0 +1,83 @@
+# -----------------------------
+# OS / Editor
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -----------------------------
+# Python cache / build artifacts
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dylib
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+wheels/
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+.venv/
+venv/
+env/
+.python-version
+
+# -----------------------------
+# Test / lint / type-check caches
+# -----------------------------
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+
+# -----------------------------
+# Coverage / reports
+# -----------------------------
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# -----------------------------
+# Logs / local runtime files
+# -----------------------------
+*.log
+*.out
+*.pid
+*.tmp
+temp_audit_video.mp4
+
+# -----------------------------
+# Jupyter
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Environment and secrets
+# -----------------------------
+.env
+.env.*
+!.env.example
+
+# -----------------------------
+# Azure Functions local settings
+# -----------------------------
+azure_functions/local.settings.json
+
+# -----------------------------
+# UV / dependency resolver
+# Keep lockfile committed for reproducible installs
+# -----------------------------
+# uv.lock
